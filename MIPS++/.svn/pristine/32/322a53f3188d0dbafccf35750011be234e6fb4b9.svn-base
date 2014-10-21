@@ -1,0 +1,3 @@
+When a class has one or more virtual functions, that class should also have a virtual destructor. 
+Vitual destructor are useful because we can delete an instance of a derived class through a pointer to base class.
+
